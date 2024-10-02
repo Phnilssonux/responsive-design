@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+header {
+}
+
+h1 {
+    font-family: "Baloo 2";
+    color: white;
+}
+
+
+ul {
+    font-family: "Source Sans 3";
+    color: white;
+    list-style-type: none;
+}
+
+.title {
+    font-family: "Poppins";
+    font-size: 102px;
+}
+
+p {
+    font-family: "Source Sans 3";
+    color: white;
+}
+
+.text-container {
+}
