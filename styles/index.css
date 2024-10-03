@@ -5,29 +5,26 @@ body {
 }
 
 header {
-}
-
-h1 {
-    font-family: "Baloo 2";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     color: white;
 }
 
-
-ul {
-    font-family: "Source Sans 3";
-    color: white;
-    list-style-type: none;
-}
-
-.title {
-    font-family: "Poppins";
-    font-size: 102px;
-}
-
-p {
-    font-family: "Source Sans 3";
+main {
+    display: flex;
+    flex-direction: column;
     color: white;
 }
 
 .text-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    
 }
