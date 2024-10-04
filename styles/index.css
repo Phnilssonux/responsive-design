@@ -2,6 +2,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: black;
+    min-height: 810px;
 }
 
 header {
@@ -14,6 +15,7 @@ header {
 main {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     color: white;
 }
 
@@ -23,8 +25,30 @@ main {
     flex-direction: column;
 }
 
-ul {
+.navbar {
+    font-family: "Source Sans 3";
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    
+    list-style-type: none;
+    min-width: 260px;
+}
+
+.logo {
+    font-family: "Baloo 2";
+}
+
+.title {
+    font-family: "Poppins";
+    font-size: 102px;
+}
+
+p {
+    font-family: "Source Sans 3";
+}
+
+@media screen and (max-width: 900px) {
+    .title {
+        font-size: 82px;
+    }
 }
